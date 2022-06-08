@@ -1,4 +1,3 @@
-class UsersListsController < ActionController::Base
-  def users_list
-  end
+class UsersListsController < ApplicationController
+  def users_list; end
 end
