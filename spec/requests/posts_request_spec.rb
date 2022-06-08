@@ -4,15 +4,15 @@ RSpec.describe 'Posts', type: :request do
   describe 'GET posts#index' do
     before(:example) { get '/users/:user_id/posts' }
 
-    it 'responds correctly' do
-      expect(response).to have_http_status(:ok)
+    it 'gives correct status' do
+      expect(response).to have_http_status(200)
     end
 
     it 'renders correctly' do
       expect(response).to render_template(:index)
     end
 
-    it 'includes correct placeholder text' do
+    it 'contains correct placeholder text' do
       expect(response.body).to include('A list of all a users posts')
     end
   end
@@ -20,7 +20,7 @@ RSpec.describe 'Posts', type: :request do
   describe 'GET posts#show' do
     before(:example) { get '/users/:user_id/posts/:post_id' }
 
-    it 'responds correctly' do
+    it 'gives correct status' do
       expect(response).to have_http_status(:ok)
     end
 
@@ -28,7 +28,7 @@ RSpec.describe 'Posts', type: :request do
       expect(response).to render_template(:show)
     end
 
-    it 'includes correct placeholder text' do
+    it 'contains correct placeholder text' do
       expect(response.body).to include('An individual post')
     end
   end
