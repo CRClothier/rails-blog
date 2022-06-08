@@ -66,7 +66,7 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem 'capybara'
+   gem 'capybara', '>= 2.7.1'
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
@@ -74,7 +74,7 @@ end
 gem 'rubocop', '>= 1.0', '< 2.0'
 
 group :development, :test do
-  %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
-    gem lib, git: "https://github.com/rspec/#{lib}.git", branch: 'main'
-  end
-end
+   gem 'rspec-rails', '~> 5.0.0'
+ end
+
+ gem 'rails-controller-testing'
