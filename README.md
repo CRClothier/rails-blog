@@ -5,7 +5,7 @@ A fully functional blog app that will show the list of posts and empower readers
 We will be completeing the project on the following checkpoints:
 
 **Checkpoint 1: Setup and controllers. ✅**
-Checkpoint 2: Controllers specs.
+**Checkpoint 2: Controllers specs. ✅**
 Checkpoint 3: Creating a data model.
 Checkpoint 4: Processing data in models.
 Checkpoint 5: Views.
