@@ -35,6 +35,11 @@ To get a local copy up and running follow these simple example steps.
 
 Then `cd School-Library`
 
+## Run Tests
+
+1. Open a terminal and cd into the project repository.
+2. Run `rspec ./spec/requests/users_request_spec.rb`
+3. Run `rspec ./spec/requests/posts_request_spec.rb`
 
 ## Authors
 
@@ -42,12 +47,6 @@ Then `cd School-Library`
 
 - GitHub: [@CRClothier](https://github.com/CRClothier)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/crclothier/)
-
-👤 **Juan Luis Palacios**
-
-- GitHub: [@JuanLPalacios](https://github.com/JuanLPalacios)
-- Twitter: [@JuanLuisPalac20](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-luis-palacios-p%C3%A9rez-95b39a228/)
 
 ## 🤝 Contributing
 
