@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+.user-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-info {
+  width: 75%;
+  border: solid 1px black;
+  padding: 1rem;
+}
