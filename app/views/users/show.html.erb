@@ -10,13 +10,5 @@
   <p><%= @user.bio %></p>
 </div>
 
-<% @posts.each do |post| %>
-<div class="post-item">
-  <h3><%= post.title %></h3>
-  <div class="post-info">
-    <p><%= post.text%></p>
-    <p>Comments: <%= post.comments_counter || 0 %></p>
-    <p>Likes: <%= post.likes_counter || 0 %></p>
-  </div>
-</div>
-<% end %>
+
+<a >Show all posts</a>
