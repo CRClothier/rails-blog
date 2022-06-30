@@ -20,7 +20,7 @@ body {
 .user-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .user-item img {
