@@ -1,1 +1,14 @@
-<h1>An individual post</h1>
+<div class="post-item">
+  <h3><%= @post.title %></h3>
+  <div class="post-info">
+    <p><%= @post.text%></p>
+    <p>Comments: <%= @post.comments_counter || 0 %></p>
+    <p>Likes: <%= @post.likes_counter || 0 %></p>
+  </div>
+</div>
+<div class="comments">
+<% comments = Comment.where(post_id: @post.id)) %>
+<% comments.each do |comment| %>
+<p><%=User.find(comment.user_id).name %>: <% comment.text %> </p>
+<% end %>
+</div>

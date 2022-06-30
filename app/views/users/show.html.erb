@@ -1,1 +1,14 @@
-<h1>A user's profile</h1>
+<div class="user-item">
+  <img src=<%= @user.photo %> alt="profile-image">
+  <div class="user-info">
+    <h2><%= @user.name%></h2>
+    <p>Number of Posts: <%= @user.posts_counter || 0 %></p>
+  </div>
+</div>
+<div class="bio">
+  <h3>Bio</h3>
+  <p><%= @user.bio %></p>
+</div>
+
+
+<a >Show all posts</a>

@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+body {
+  padding: 2rem;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.user-item img {
+  max-width: 10vw;
+  max-height: 16vw;
+}
+
+.user-info {
+  width: 75%;
+  border: solid 1px black;
+  padding: 1rem;
+}
+
+.bio {
+  border: solid 1px black;
+  padding: 1rem;
+}
