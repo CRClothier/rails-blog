@@ -8,3 +8,5 @@ class UsersController < ApplicationController
     @posts = User.three_most_recent_posts(:user_id)
   end
 end
+
+#comments are quite useful
