@@ -7,12 +7,12 @@ We will be completeing the project on the following checkpoints:
 **Checkpoint 1: Setup and controllers. ✅**
 **Checkpoint 2: Controllers specs. ✅**
 **Checkpoint 3: Creating a data model. ✅**
-Checkpoint 4: Processing data in models.
+Checkpoint 4: Processing data in models. ooo
 Checkpoint 5: Views.
-Checkpoint 6: Forms
+Checkpoint 6: Forms ooo
 Checkpoint 7: Validations, Model specs, and n+1 problems.
 Checkpoint 8: Add Devise.
-Checkpoint 9: Add authorization rules.
+Checkpoint 9: Add authorization rules. oooooo
 Checkpoint 10: Integration specs for Views.
 Checkpoint 11: Add API endpoints.
 Exercise: API documentation.
@@ -23,7 +23,7 @@ Exercise: API documentation.
 
 ## Additional Used
 
-- Linters
+- Linters ooo
 - Gitflow
 
 
